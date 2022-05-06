@@ -1,485 +1,287 @@
 stackbitVersion: ~0.3.0
-ssgName: unibit
-buildCommand: unibit build
-publishDir: output
-staticDir: static
-uploadDir: images
-dataDir: data
-pagesDir: content
+ssgName: jekyll
+ssgVersion: "4.1"
+buildCommand: bundle exec jekyll build
+publishDir: "_site"
+staticDir: "assets"
+uploadDir: "images"
+dataDir: "_data"
+pagesDir: ""
+pageLayoutKey: null
 logicFields:
-  - order
-  - background_image_opacity
-  - bg_image_primary_opacity
-metadata:
-  title: Planty
-  description: An e-commerce theme powered by Snipcart
-  author: Snipcart
-  authorURL: 'https://snipcart.com'
-  images:
-    small: images/demo-256x192.png
-    large: images/demo-1024x768.png
-stackbit_banner:
-  show_banner: true
-  name: Planty
-  create_url: 'https://app.stackbit.com/create?theme=planty'
-  github_url: 'https://github.com/stackbithq/stackbit-theme-planty'
+  - service.weight
+  - team.weight
 models:
   config:
     type: config
-    label: Site Configuration
+    label: Config
     fields:
       - type: string
-        name: domain
-        label: Domain
-        description: The domain of your site, including the protocol, e.g. https://mysite.com/
-      - type: enum
-        label: Color Palette
-        name: palette
-        options:
-          - cyan
-          - green
-          - yellow
-        default: green
+        name: title
         required: true
       - type: string
-        label: Snipcart public API key
-        name: snipcart_api_key
-        required: true
-      - type: image
-        name: favicon
-        label: Favicon
-      - type: image
-        name: logo_light
-        label: Logo Light
-        required: true
-      - type: image
-        name: logo_dark
-        label: Logo Dark
-        required: true
-      - type: image
-        name: hamburger_background_image
-        label: Hamburger Menu Background Image
-      - type: image
-        name: bg_image_primary
-        label: Product Left Background Image
-      - type: number
-        name: bg_image_primary_opacity
-        label: Product Left Background Image Opacity
-        description: An integer between 0 and 100. A lower value makes the image more transparent
-      - type: image
-        name: bg_image_secondary
-        label: Product Right Background Image
-      - type: image
-        name: bg_image_product
-        label: Product Nav Background Image
-      - type: list
-        name: main_menu
-        label: Navigation Links
-        description: List of navigation links
-        items:
-          type: model
-          models: [action]
+        name: baseurl
+        hidden: true
       - type: string
-        label: Footer Text
-        name: footer_text
+        name: permalink
+        hidden: true
   home:
     type: page
-    label: Home
-    layout: home
-    hideContent: true
+    label: Homepage
     file: index.md
     singleInstance: true
-    extends: advanced_page_fields
-  advanced:
-    type: page
-    label: Advanced Page
-    hideContent: true
-    layout: advanced
-    exclude:
-      - "store.md"
-      - "index.md"
-      - category/**
-      - products/**
-    extends: advanced_page_fields
-  store:
-    type: page
-    label: Store
-    layout: store
-    file: store.md
-    singleInstance: true
-    hideContent: true
-    extends: advanced_page_fields
-  advanced_page_fields:
-    type: object
-    label: Advanced page fields
     fields:
       - type: string
-        label: Title
         name: title
-        description: The title of the page
         required: true
       - type: string
-        name: page_css_class
-        label: Page CSS class
+        name: description
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
       - type: boolean
-        label: White header
-        name: white_header
-      - type: list
-        name: sections
-        label: Sections
-        description: Page sections
-        items:
-          type: model
-          models:
-            - hero_section
-            - header_section
-            - featured_products_section
-            - featured_categories_section
-            - testimonials_section
-            - promotion_section
-            - store_section
-            - faq_section
-            - bulletpoints_section
-            - contact_section
-      - type: model
-        name: seo
-        models: [stackbit_page_meta]
-  category:
+        name: intro_image_absolute
+        label: Overflow intro image
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Hide the intro image on mobile
+        description: Hide the intro image on mobile screen sizes
+      - type: boolean
+        name: show_call_box
+        label: Show Call Box
+        description: Show contact info on homepage?
+      - type: datetime
+        name: date
+        label: Date
+      - type: string
+        name: bodyClass
+      - type: string
+        name: layout
+        default: "home"
+        hidden: true
+  services:
     type: page
-    label: Category
-    hideContent: true
-    layout: category
-    folder: category
-    urlPath: 'category/{slug}'
+    label: Services
+    file: services.md
+    singleInstance: true
     fields:
       - type: string
         name: title
         label: Title
-      - type: number
-        name: order
-        label: Order
-        description: Numerical order of sorting categories
-      - type: model
-        name: seo
-        models: [stackbit_page_meta]
-  hero_section:
-    type: object
-    label: Hero Section
-    fields:
       - type: string
-        name: section_id
-        label: Section ID
+        name: layout
+        label: Layout
+      - type: string
+        name: collection
+        label: Collection
       - type: image
-        name: background_image
-        label: Background Image
-        description: The image shown in the background of the section.
-      - type: number
-        name: background_image_opacity
-        label: Background image opacity
-        description: An integer between 0 and 100. A lower value makes the image more transparent
-      - type: markdown
-        name: content
-        label: Content
-        description: The text content of the section.
-      - type: list
-        name: actions
-        label: Action Buttons
-        items:
-          type: model
-          models: [action]
-  featured_products_section:
-    type: object
-    label: Featured Products Section
-    fields:
-      - type: string
-        name: title
-        label: Title
-      - type: string
-        name: section_id
-        label: Section ID
+        name: intro_image
+        label: Intro Image
       - type: boolean
-        name: light_title
-        label: Light title
+        name: intro_image_absolute
+        label: Intro Image Absolute
       - type: boolean
-        name: icon
-        label: Show Heart Icon
-      - type: list
-        name: featured_products
-        label: Featured Products
-        items:
-          type: reference
-          models: [product]
-  featured_categories_section:
-    type: object
-    label: Categories Section
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
+  teams:
+    type: page
+    label: Teams
+    file: team.md
+    singleInstance: true
     fields:
-      - type: string
-        name: section_id
-        label: Section ID
-      - type: string
-        name: title
-        label: Title
-      - type: list
-        name: featured_categories
-        label: Featured Categories
-        items:
-          type: reference
-          models: [category]
-  store_section:
-    type: object
-    label: Store Section
-    fields:
-      - type: string
-        name: section_id
-        label: Section ID
-  promotion_section:
-    type: object
-    label: Promotion
-    fields:
-      - type: string
-        name: section_id
-        label: Section ID
       - type: string
         name: title
         label: Title
       - type: string
-        name: subtitle
-        label: subtitle
-      - type: image
-        name: image
-        label: Image
-      - type: image
-        name: background_image
-        label: Background Image
-      - type: model
-        name: cta
-        label: Call to action
-        models: [action]
-  testimonials_section:
-    type: object
-    label: Testimonials
+        name: layout
+        label: Layout
+      - type: string
+        name: permalink
+        label: Permalink
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Absolute
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
+  basicpage:
+    type: page
+    label: Basic Page
+    match: "*.md"
+    exclude: index.md
     fields:
       - type: string
-        name: section_id
-        label: Section ID
+        name: title
+      - type: datetime
+        name: date
+        label: Date
+      - type: string
+        name: bodyClass
+      - type: enum
+        name: layout
+        options:
+          - label: page
+            value: page
+          - label: contact
+            value: contact
+  service:
+    type: page
+    label: Service
+    folder: _services
+    match: "*"
+    fields:
       - type: string
         name: title
         label: Title
-      - type: list
-        name: testimonials
-        label: Testimonials
-        description: A list of testimonials
-        items:
-          type: object
-          labelField: text
-          fields:
-            - type: string
-              name: text
-              label: Text
-            - type: object
-              name: author
-              label: Author
-              fields:
-                - type: string
-                  name: name
-                  label: Name
-                - type: string
-                  name: location
-                  label: Location
-  header_section:
-    type: object
-    label: Header section
+      - type: datetime
+        name: date
+        label: Date
+      - type: boolean
+        name: featured
+        label: Featured
+      - type: number
+        name: weight
+        label: Weight
+        subtype: int
+      - type: enum
+        name: layout
+        options:
+          - label: service
+            value: service
+  team:
+    type: page
+    label: Team
+    folder: _team
     fields:
       - type: string
-        name: section_id
-        label: Section ID
-      - type: image
-        label: Background image
-        name: background_image
-      - type: string
-        label: Headline
-        name: headline
-      - type: markdown
-        label: Subtitle
-        name: subtitle
-  faq_section:
-    type: object
-    label: FAQ Section
-    fields:
-      - type: string
-        name: section_id
-        label: Section ID
-      - type: list
-        name: questions
-        label: Questions
-        description: List of questions to show on the FAQ page
-        items:
-          type: object
-          labelField: question
-          fields:
-            - type: string
-              name: question
-              label: Question
-            - type: markdown
-              name: answer
-              label: Answer
-  contact_section:
-    type: object
-    label: Contact Section
-    fields:
-      - type: string
-        name: section_id
-        label: Section ID
+        name: title
+        label: Title
+      - type: datetime
+        name: date
+        label: Date
+      - type: boolean
+        name: draft
+        label: Draft
       - type: image
         name: image
         label: Image
       - type: string
-        name: address
-        label: Address
+        name: jobtitle
       - type: string
-        name: phone
-        label: Phone
+        name: linkedinurl
+      - type: number
+        name: weight
+        label: Weight
+        subtype: int
+      - type: string
+        name: layout
+        label: Layout
+        hidden: true
+        default: team
+      - type: boolean
+        name: promoted
+        label: Promoted
+  contact:
+    type: data
+    label: Contact
+    file: contact.yml
+    fields:
       - type: string
         name: email
         label: Email
       - type: string
-        name: mapUrl
-        label: Map URL
-  bulletpoints_section:
-    type: object
-    label: Bulletpoints Section
-    fields:
+        name: phone
+        label: Phone
       - type: string
-        name: section_id
-        label: Section ID
+        name: contact_button_link
+        label: Contact Button Link
+  features:
+    type: data
+    label: Features
+    file: features.json
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: title
+          label: Title
+        - type: string
+          name: description
+          label: Description
+        - type: image
+          name: image
+          label: Image
+  menus:
+    type: data
+    label: Menus
+    file: menus.yml
+    fields:
       - type: list
-        name: bulletpoints
-        label: Bulletpoints
-        description: List of bulletpoints to show on About page
+        name: main
+        label: Main
         items:
           type: object
-          labelField: title
-          fields:
-            - type: string
-              name: title
-              label: Title
-            - type: markdown
-              name: description
-              label: Description
-            - type: image
-              name: image
-              label: Bulletpoint image
-  product:
-    type: page
-    label: Product
-    layout: product
-    urlPath: 'products/{slug}'
-    folder: products
-    fields:
-      - type: string
-        name: id
-        label: ID
-      - type: string
-        name: title
-        label: Title
-      - type: string
-        name: description
-        label: Description
-      - type: string
-        name: price
-        label: Price
-      - type: number
-        name: order
-        label: Order
-        description: numerical order of sorting products
-      - type: image
-        label: Default Thumbnail Image
-        name: default_thumbnail_image
-      - type: image
-        label: Default Original Image
-        name: default_original_image
-      - type: reference
-        name: category
-        label: Category
-        models: [category]
-      - type: boolean
-        name: featured
-        label: Featured
-        default: false
-      - type: model
-        name: seo
-        models: [stackbit_page_meta]
-  action:
-    type: object
-    label: Action
-    labelField: title
-    fields:
-      - type: string
-        name: title
-        label: Title
-        required: true
-      - type: string
-        name: url
-        label: URL
-        required: true
-        default: "#"
-      - type: enum
-        name: style
-        label: Style
-        options:
-          - primary
-          - secondary
-          - link
-        default: primary
-        required: true
-      - type: boolean
-        name: arrow
-        label: CTA Arrow
-  stackbit_page_meta:
-    type: object
-    label: Page meta data
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: 'The page title that goes into the <title> tag'
-        default: ""
-      - type: string
-        name: description
-        label: Description
-        description: 'The page description that goes into the <meta name="description"> tag'
-        default: ""
-      - type: list
-        name: robots
-        label: Robots
-        description: 'The items that go into the <meta name="robots"> tag'
-        items:
-          type: enum
-          options:
-            - all
-            - index
-            - follow
-            - noindex
-            - nofollow
-            - noimageindex
-            - notranslate
-            - none
-      - type: list
-        name: extra
-        label: Extra
-        description: 'Additional definition for specific meta tags such as open-graph, twitter, etc.'
-        items:
-          type: object
-          labelField: name
           fields:
             - type: string
               name: name
-              default: ""
+              label: Name
             - type: string
-              name: value
-              default: ""
+              name: url
+              label: Url
+            - type: number
+              name: weight
+              label: Weight
+              subtype: int
+      - type: list
+        name: footer
+        label: Footer
+        items:
+          type: object
+          fields:
             - type: string
-              name: keyName
-              default: name
-            - type: boolean
-              name: relativeUrl
+              name: name
+              label: Name
+            - type: string
+              name: url
+              label: Url
+            - type: number
+              name: weight
+              label: Weight
+              subtype: int
+  seo:
+    type: data
+    label: Seo
+    file: seo.yml
+    fields:
+      - type: string
+        name: google_analytics_id
+        label: Google Analytics Id
+      - type: string
+        name: meta_twitter_site
+        label: Meta Twitter Site
+      - type: string
+        name: meta_twitter_creator
+        label: Meta Twitter Creator
+      - type: markdown
+        name: copyright_text
+        label: Copyright Text
+  social:
+    type: data
+    label: Social
+    file: social.json
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: name
+          label: Name
+        - type: string
+          name: link
+          label: Link
+        - type: image
+          name: image
+          label: Image

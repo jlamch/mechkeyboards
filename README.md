@@ -1,92 +1,93 @@
-![logo](https://og-website.snipcart.com/media/204485/logo.svg)
+# Jekyll Serif Theme
 
-# Planty Stackbit theme
+Serif is a modern business theme for Jekyll. It contains multiple content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
 
-[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/snipcart/stackbit-theme-planty&ssg=jekyll)
+[Live Demo](https://jekyll-serif.netlify.app/) | 
+[Zerostatic Themes](https://www.zerostatic.io)
 
-Planty is an e-commerce ready custom theme for Stackbit created by [Snipcart](http://bit.ly/2YB7AUL).
+<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-This theme can be used to create an e-commerce ready website through Stackbit's platform. You'll get
-everything you need from products listing, categorization, FAQ, etc.
+![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
 
-You can see it in action right [here](https://stackbit-theme-planty.netlify.com).
+### Theme features
 
-> To learn more about Stackbit and its custom themes feature, [read this post](http://bit.ly/2YAvGix).
+- Jekyll 4.2
+- Netlify & Github Pages ready
+- Services (Collection)
+- Team (Collection)
+- Features (Data)
+- SCSS
+- Responsive design
+- Responsive hamburger and slide in menu
+- Bootstrap 4.6
+- Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`
+- 100/100 Google Lighthouse speed score
+- 100/100 Google Lighthouse seo score
+- 100/100 Google Lighthouse accessibility score
+- 100/100 Google Lighthouse best practices score
+- Under 50KB without images or 80KB with images and illustrations ⚡
+- Under 20KB without Google fonts ⚡⚡⚡
+- Robust example content included
+- Royalty free illustrations included
 
-## How to get started
 
-In Stackbit's custom themes importer, just use this repository URL. For the moment, this theme works only with Jekyll but will soon work with other static site generators supported by Stackbit.
+## Installation
 
-## Theme configuration
+### Installing Ruby & Jekyll
+ 
+If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-> Please note that the screenshots below have been taken in Forestry, you can use Forestry as headless CMS for your project if you want, but this also work with other CMSs.
+### Installing Theme
 
-### Configuring Snipcart
+Download or clone the theme.
 
-First thing is to enter your Snipcart API key. Open your CMS and go to `Global site config`.
+To run the theme locally, navigate to the theme directory and run:
 
-![api-key](https://og-website.snipcart.com/media/204516/config_api_key.png)
+```
+bundle install
+``` 
 
-Use your **public** API key in there.
+To start the Jekyll local development server.
 
-### Logos
+```
+bundle exec jekyll serve
+``` 
 
-Logos can be updated via the CMS as well. You'll be asked to provide a dark and a light logo.
+To build the theme.
+ 
+```
+bundle exec jekyll build
+```
 
-![logo](https://og-website.snipcart.com/media/204518/config_logos.png)
+## Deployment
 
-### Styles configuration
+### Netlify
 
-Colors can be managed via the CMS as well. Under `Global site config` section, open `Styles config`. You'll see all colors used throughout the theme listed here. Adjust them for your own branding.
+Use Netlify to deploy this theme. This theme contains a valid and tested `netlify.toml` - Feel free to use the 1-click deploy below.
 
-![styles-config](https://og-website.snipcart.com/media/204508/config_styles.png)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
 
-You can also configure background images in there.
+### Github Pages
+This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
 
-![background-images](https://og-website.snipcart.com/media/204517/config_backgroundimages.png)
+For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
 
-### Categories
+## Extras
 
-Each product can be associated to a category. Open the Categories section and manage them there.
+### License
 
-![categories](https://og-website.snipcart.com/media/204510/list_categories.png)
+- You cannot create ports of this theme
+- You cannot re-sell this theme
 
-### Products
+### Credits 
 
-Products can be managed directly through the CMS via the Products section.
+- Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
+- Stock images by Unsplash - https://unsplash.com/
+- Feature icons by Noun Project - https://thenounproject.com/
 
-![products](https://og-website.snipcart.com/media/204511/list_products.png)
+### Other Jekyll Themes by Zerostatic
 
-Products have several properties available, both for Snipcart and for the theme. You can define its price, description, name, ID, etc.
+- [Jekyll Serif](https://github.com/zerostaticthemes/jekyll-serif-theme)
+- [Jekyll Advance](https://www.zerostatic.io/theme/jekyll-advance/)
 
-You can also define if this is a **featured** product, meaning that it will show in the Best sellers section on the site. A feature product will use the Feature images set.
-
-![product-details](https://og-website.snipcart.com/media/204514/product_details.png)
-
-### Promotion
-
-The promotion is a component displayed just above the footer on some pages. You can configure what to show in that box via the CMS.
-
-![promotion](https://og-website.snipcart.com/media/204504/components_promotion.png)
-
-You can define a Call to action for the promotion, it's usually a link to a section of your site.
-
-![promotion-cta](https://og-website.snipcart.com/media/204505/components_promotion_cta.png)
-
-### Testimonials
-
-You can manage testimonials to show on the site via this section.
-
-![testimonials](https://og-website.snipcart.com/media/204506/components_testimonials.png)
-
-### About
-
-Manage the content of the About section here.
-
-![about](https://og-website.snipcart.com/media/204512/pages_about.png)
-
-### FAQ
-
-Manage your FAQ entries in this section.
-
-![faq](https://og-website.snipcart.com/media/204513/pages_faq.png)
+🇦🇺 **Made in Australia** by Robert Austin - leave a star mate!
