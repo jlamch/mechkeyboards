@@ -2,18 +2,18 @@
 ---
 
 // Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
-$secondary: #f88379;
+$primary: #745789;//#AF9EBA;//#e5261f;
+$primary-dark: #4A2863;
+$secondary: #802F4E;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #FAFAFB;
 $steel: #5c5a5a;
 
 // Links
 $link-color: $primary;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 10%);
+$link-hover-color: lighten($primary, 15%);
 $link-hover-decoration: underline;
 
 // Fonts
