@@ -41,12 +41,11 @@ Kailh Box Hako Violet
 
  <img src="./img/sk87/3.jpg">
  <img src="./img/sk87/h1.jpg">
- <img src="./img/sk87/h2.jpg">
  <img src="./img/sk87/h3.jpg">
 
 Very light switches with interesting sound
 
- ------ Keycaps
+ ## Keycaps
  AKKO Clear Polycabonate Keycaps
  ASA Profile
  
@@ -58,4 +57,4 @@ Very light switches with interesting sound
  <img src="./img/sk87/k3.JPG">
  <img src="./img/sk87/k4.JPG">
 
- ------ Build Price
+ ## Build Price
