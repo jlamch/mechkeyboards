@@ -3,7 +3,7 @@ title:  ""
 subtitle: ""
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/Keyboards/7.png"
+image: "img/keyboards/7.jpg"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
