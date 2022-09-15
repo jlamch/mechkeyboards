@@ -11,14 +11,14 @@ date:   2022-01-20 12:12:12
 ## RK87
 
 ### Description
+Prebuild with changed keycaps.
 
-
-|   Feature     |                     | Price  |
-| ------------- |:-------------------:| -----: |
-| Layout        | TKL                 | 250zl  |
-| Connectivity  | USB-C, Bluetooth    |        |
-| Lights        | per key RGB         |        |
-| Lights        | side strips RGB     |        |
-| Case          | Floating design     |        |
-| Switche       | Huano brown 50g     |        |
-| Keycaps       | PBT yellow on black | 100zl  |
+|   Feature     | Details                 | Price  |
+| ------------- |-------------------------| -----: |
+| Layout        | TKL                     | 250pln |
+| Connectivity  | USB-C, Bluetooth        |        |
+| Lights        | per key RGB             |        |
+| Lights        | side strips RGB         |        |
+| Case          | Floating design         |        |
+| Switche       | Huano brown 50g         |        |
+| Keycaps       | PBT yellow on black     | 100pln |

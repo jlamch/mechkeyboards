@@ -1,4 +1,3 @@
-
 /*CARD */
 
 .card {
@@ -357,3 +356,27 @@ a:focus {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
 }
+
+.table {
+	width:100%;
+	border:1px solid #EEEEEE;
+}
+
+.table-header {
+	display:flex;
+	width:100%;
+	background:#000;
+	padding:(12px * 1.5) 0;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+	padding:(12px * 1.5) 0;	
+}
+
+.table-data, .header__item {
+	flex: 1 1 20%;
+	text-align:left;
+}
+
