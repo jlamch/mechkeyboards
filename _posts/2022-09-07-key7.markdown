@@ -6,18 +6,19 @@ avatar: "img/authors/wferr.png"
 image: "img/keyboards/7.jpg"
 date:   2022-01-20 12:12:12
 ---
-### Galery
 ![](img/keyboards/7.png)
  
-### Keyboard
-
+## RK87
 
 ### Description
 
 
-|   Feature     |               | Price  |
-| ------------- |:-------------:| -----: |
-| Layout        |       |        |
-| Case          |       |        |
-| Switche       |       |        |
-| Keycaps       |       |        |
+|   Feature     |                     | Price  |
+| ------------- |:-------------------:| -----: |
+| Layout        | TKL                 | 250zl  |
+| Connectivity  | USB-C, Bluetooth    |        |
+| Lights        | per key RGB         |        |
+| Lights        | side strips RGB     |        |
+| Case          | Floating design     |        |
+| Switche       | Huano brown 50g     |        |
+| Keycaps       | PBT yellow on black | 100zl  |
