@@ -3,17 +3,16 @@ title:  ""
 subtitle: ""
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/13.jpg"
+image: "img/keyboards/20.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/13.png)
+![](img/keyboards/20.png)
  
 ### Keyboard
 
 
 ### Description
-
 
 |   Feature     |               | Price  |
 | ------------- |:-------------:| -----: |

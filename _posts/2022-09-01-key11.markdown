@@ -1,16 +1,20 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Royal Kludge RK G-87"
+subtitle: "Prebuild TKL"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/7.jpg"
+image: "img/keyboards/7.png"
 date:   2022-01-20 12:12:12
 ---
-![](img/keyboards/7.png)
- 
-## RK87
+![](img/rk87/k1.jpg)
+### My first TKL
+First and cheapest keyboard. Firs buy on Aliexpres.
 
 ### Description
+Floating design
+Switches are spray lubed
+
+
 Prebuild with changed keycaps.
 
 |   Feature     | Details                 | Price  |
@@ -22,3 +26,12 @@ Prebuild with changed keycaps.
 | Case          | Floating design         |        |
 | Switche       | Huano brown 50g         |        |
 | Keycaps       | PBT yellow on black     | 100pln |
+
+### Galery
+ ![](img/rk87/1.jpg)
+ Functions
+ ![](img/rk87/2.jpg)
+
+ ![](img/rk87/k2.jpg)
+ ![](img/rk87/k3.jpg)
+

@@ -1,19 +1,18 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Cheap 64 build"
+subtitle: "3D printed, very thin keycaps and clicky switches. YUK"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/15.jpg"
+image: "img/keyboards/18.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/15.png)
+![](img/keyboards/18.png)
  
 ### Keyboard
 
 
 ### Description
-
 
 |   Feature     |               | Price  |
 | ------------- |:-------------:| -----: |

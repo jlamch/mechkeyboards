@@ -1,13 +1,13 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Ikki68"
+subtitle: "Classic Ikki68 with aluminium top"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/3.jpg"
+image: "img/keyboards/12.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/3.png)
+![](img/keyboards/12.png)
  
 ### Keyboard
 

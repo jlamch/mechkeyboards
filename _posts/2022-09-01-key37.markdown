@@ -1,13 +1,13 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Endless 80"
+subtitle: "Premium custom build"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/11.jpg"
+image: "img/keyboards/8.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/11.png)
+![](img/keyboards/8.png)
  
 ### Keyboard
 

@@ -1,0 +1,36 @@
+---
+title:  "KeebIO KBO-5000"
+subtitle: "Split TKL with macro"
+author: "JLamch"
+avatar: "img/authors/wferr.png"
+image: "img/keyboards/1.png"
+date:   2022-01-20 12:12:12
+---
+### Galery
+![](img/keyboards/1.png)
+ 
+## KBO-5000
+Split from KeebIO. It's TKL with long navigation section and left macropad for 10 switches
+
+### Description
+Prebuild with changed keycaps.
+
+|   Feature        | Details                     | Price        |
+| -----------------|-----------------------------| ------------:|
+| Layout           | TKL                         | 60$          |
+| Plate            | FR4 plate and bottom plate  | 23$          |
+| Connectivity     | USB-C                       |              |
+| Connectivity     | USB-C for halfs connection  |              |
+| Lights           | underglow RGB               |              |
+| Case             | 3D printed Pet-G + metal PLA|~30pln        |
+| Switche          | Koala  62g                  | € 6,50/10pcs |
+| Keycaps          | MAXKEY Foundation (SA)      | 80$ + vat    |
+| Keycaps spaces   | MAXKEY and DOMIKEY mobius   | 10$ + vat    |
+| Keycaps macros   | aluminium                   | 80pln + vat  |
+| Sound mod        | silicon in case                 | ~40pln       |
+___
+
+  *[Koala switch](https://keygem.com/collections/tactile/products/durock-koala-62g-10pcs)
+  *[MAXKEY FOUNDATION](https://kbdfans.com/products/in-stockmaxkey-foundation-sa-keycaps-set?variant=12912749346874)
+
+___

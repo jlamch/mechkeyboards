@@ -1,13 +1,13 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Floating TKL"
+subtitle: "Prebuild body with hotswap PCB"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/14.jpg"
+image: "img/keyboards/10.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/14.png)
+![](img/keyboards/10.png)
  
 ### Keyboard
 

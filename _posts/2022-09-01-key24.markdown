@@ -1,0 +1,33 @@
+---
+title:  "YMDK 64 split"
+subtitle: "60% with arrows"
+author: "JLamch"
+avatar: "img/authors/wferr.png"
+image: "img/keyboards/4.png"
+date:   2022-01-20 12:12:12
+---
+### Galery
+![](img/keyboards/4.png)
+ 
+### YMDK 64% split
+PCB only. Hotswap.
+
+Additional keys  where added on available 2u sockets. This way keyboard has a little more than normal 60%
+
+### Description
+
+
+|   Feature        | Details                         | Price        |
+| -----------------|---------------------------------| ------------:|
+| Layout           | 60% in 64 layout (60 with arrows)|  310pln +vat |
+| Plate and case   | 3D printed PLA+PetG             |    ~50pln    |
+| Connectivity     | mini USB                        |              |
+| Connectivity     | mini USB                        |              |
+| Lights           | underglow RGB                   |              |
+| Switche          | Feker linear 50g                | 130pln+vat   |
+| Keycaps          | basic (OEM)                     | 50pln + vat  |
+
+
+[YMDK split alliexpress](https://www.aliexpress.com/item/33006060286.html?spm=a2g0o.productlist.0.0.28512c76ERQg28&algo_pvid=098192a2-64e3-49cc-8a55-61e1bc070414&algo_exp_id=098192a2-64e3-49cc-8a55-61e1bc070414-1&pdp_ext_f=%7B%22sku_id%22%3A%2267404148518%22%7D&pdp_npi=2%40dis%21PLN%21684.82%21684.82%21%21%21%21%21%402100bdd816633245318457909e72f2%2167404148518%21sea&curPageLogUid=oPFNFWJ0OGEe)
+
+[YMDK home](hhttps://ymdkey.com/collections/split-75-60/products/ymdk-split-64-sp64-cnc-aluminum-case-plate-hot-socket-hot-swap-pcb-underglow-rgb-fully-programmable-diy-kit)

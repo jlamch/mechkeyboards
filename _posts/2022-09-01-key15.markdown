@@ -1,13 +1,13 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Sofle v1"
+subtitle: "Ergo in classic plate only build"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/1.jpg"
+image: "img/keyboards/15.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/1.png)
+![](img/keyboards/15.png)
  
 ### Keyboard
 

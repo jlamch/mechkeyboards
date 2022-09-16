@@ -3,8 +3,8 @@ title:  "Everglide SK87"
 subtitle: "Best wireless TKL"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
-image: "img/sk87/b3.JPG"
-date:   2022-02-22 12:12:12
+image: "img/sk87/22.png"
+date:   2022-01-20 12:12:12
 ---
 
 ### Best wireless TKL
@@ -56,5 +56,6 @@ Very light switches with interesting sound
  <img src="./img/sk87/k2.JPG">
  <img src="./img/sk87/k3.JPG">
  <img src="./img/sk87/k4.JPG">
+ <img src="./img/sk87/b3.JPG">
 
  ## Build Price

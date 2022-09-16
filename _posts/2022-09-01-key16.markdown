@@ -1,18 +1,19 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Sofle v2"
+subtitle: "Ergo with two scrolls"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/18.jpg"
+image: "img/keyboards/14.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/18.png)
+![](img/keyboards/14.png)
  
 ### Keyboard
 
 
 ### Description
+
 
 |   Feature     |               | Price  |
 | ------------- |:-------------:| -----: |

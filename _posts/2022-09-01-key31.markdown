@@ -1,13 +1,13 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Dareu EK868"
+subtitle: "Low profile wireless 65%"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/16.jpg"
+image: "img/keyboards/19.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/16.png)
+![](img/keyboards/19.png)
  
 ### Keyboard
 
@@ -20,3 +20,5 @@ date:   2022-01-20 12:12:12
 | Case          |       |        |
 | Switche       |       |        |
 | Keycaps       |       |        |
+
+https://www.aliexpress.com/item/1005002555786273.html?spm=a2g0o.order_list.0.0.21ef1802VAE4wB

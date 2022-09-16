@@ -1,19 +1,18 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Corne"
+subtitle: "High profile corne in 3D printed case"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/9.jpg"
+image: "img/keyboards/16.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/9.png)
+![](img/keyboards/16.png)
  
 ### Keyboard
 
 
 ### Description
-
 
 |   Feature     |               | Price  |
 | ------------- |:-------------:| -----: |

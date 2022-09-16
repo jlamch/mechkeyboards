@@ -1,19 +1,18 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Corne low profile"
+subtitle: "low profile plate only build"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/10.jpg"
+image: "img/keyboards/17.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/10.png)
+![](img/keyboards/17.png)
  
 ### Keyboard
 
 
 ### Description
-
 
 |   Feature     |               | Price  |
 | ------------- |:-------------:| -----: |

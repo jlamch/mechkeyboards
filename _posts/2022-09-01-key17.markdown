@@ -1,13 +1,13 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Kyria v2"
+subtitle: "Small wireless ergo"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/6.jpg"
+image: "img/keyboards/13.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/6.png)
+![](img/keyboards/13.png)
  
 ### Keyboard
 

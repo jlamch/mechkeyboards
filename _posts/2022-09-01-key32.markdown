@@ -1,18 +1,19 @@
 ---
-title:  ""
-subtitle: ""
+title:  "Low profile aluminium 64"
+subtitle: "60% layout base on Bm60ec"
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/20.jpg"
+image: "img/keyboards/11.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/20.png)
+![](img/keyboards/11.png)
  
 ### Keyboard
 
 
 ### Description
+
 
 |   Feature     |               | Price  |
 | ------------- |:-------------:| -----: |

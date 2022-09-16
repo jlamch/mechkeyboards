@@ -1,0 +1,34 @@
+---
+title:  "YMDK 75 split"
+subtitle: "75% split with macro"
+author: "JLamch"
+avatar: "img/authors/wferr.png"
+image: "img/keyboards/3.png"
+date:   2022-01-20 12:12:12
+---
+### Galery
+![](img/keyboards/3.png)
+ 
+### YMDK 75% split
+PCB with case as barebone. Soldered
+
+### Description
+
+
+|   Feature        | Details                         | Price        |
+| -----------------|---------------------------------| ------------:|
+| Layout           | 75% with macro                  |  400pln +vat |
+| Plate and case   | Acrilic                         |              |
+| Connectivity     | mini USB                        |              |
+| Connectivity     | mini USB                        |              |
+| Lights           | underglow RGB                   |              |
+| Switche          | Feker panda                     | 160pln+vat   |
+| Keycaps          | Akko Carbon Retro (ASA)         | 60$ + clo    |
+| Sound mod        | silicon in case                 | ~40pln       |
+
+
+[Carbon Retro](https://en.akkogear.com/product/akko-carbon-retro-full-keycap-set-158-key/)
+
+[YMDK split](https://www.aliexpress.com/item/33006060286.html?spm=a2g0o.productlist.0.0.28512c76ERQg28&algo_pvid=098192a2-64e3-49cc-8a55-61e1bc070414&algo_exp_id=098192a2-64e3-49cc-8a55-61e1bc070414-1&pdp_ext_f=%7B%22sku_id%22%3A%2267404148518%22%7D&pdp_npi=2%40dis%21PLN%21684.82%21684.82%21%21%21%21%21%402100bdd816633245318457909e72f2%2167404148518%21sea&curPageLogUid=oPFNFWJ0OGEe)
+
+[YMDK home](https://ymdkey.com/collections/split-75-60/products/split-75-84-acrylic-case-plate-underglow-rgb-fully-programmable-pcb-stabilizers-ansi-iso-diy-kit-similar-to-vea-layout)

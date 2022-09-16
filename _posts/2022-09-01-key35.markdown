@@ -1,13 +1,13 @@
 ---
-title:  ""
+title:  "YMDK wings"
 subtitle: ""
 author: "JLamch"
 avatar: "img/authors/wferr.png"
-image: "img/keyboards/2.jpg"
+image: "img/keyboards/6.png"
 date:   2022-01-20 12:12:12
 ---
 ### Galery
-![](img/keyboards/2.png)
+![](img/keyboards/6.png)
  
 ### Keyboard
 
@@ -21,3 +21,7 @@ date:   2022-01-20 12:12:12
 | Case          |       |        |
 | Switche       |       |        |
 | Keycaps       |       |        |
+
+
+
+https://ymdkey.com/products/ymdk-wings-aluminum-cnc-top-bottom-qmk-pcb-full-assembly-keyboard-jade-navy-cream-switches
